@@ -11,9 +11,4 @@ public class ApiController {
         return "get";
     }
 
-    @GetMapping(value = "/page/get")
-    public String getPage(){
-        return "get";
-    }
-
 }
